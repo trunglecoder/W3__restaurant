@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/">
+    <link rel="stylesheet" href="./assets/css/font.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li> <a href="#">home</a></li>
+                <li> <a href="#menu-container">menu</a></li>
+                <li> <a href="#about-container">about</a></li>
+                <li> <a href="#contact">contact</a></li>
+            </ul>
+        </div>
+
+        <div id="slider">
+            
+            <div class="subnav-time">
+                Open from 10am to 12pm
+            </div>
+            <div class="text-content">
+                <div class="subnav-name">
+                    thinking<br>
+                    crust pizza
+                </div>
+                <a href="#menu-container" class="subnav-menu">
+                    let me see the menu
+                </a>
+            </div>
+        </div>
+
+        <div id="container-1">
+            <div id="menu-container">
+                <h1 class="menu-heading">
+                       the MENU
+                </h1>
+                <div class="menu-btn-list">
+                    <div class="menu-btn">pizza</div>
+                    <div class="menu-btn">sallad</div>
+                    <div class="menu-btn">starter</div>
+                </div>
+                <!-- pizza -->
+                <div class="menu-content-container" id="pizza">
+                    <div class="menu-item">
+                        <div class="menu-item-price">$12.50</div>
+                        <div class="menu-item-heading">Margherita</div>
+                        <div class="menu-item-sub">Fresh tomatoes, fresh mozzarella, fresh basil</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-price">$15.50</div>
+                        <div class="menu-item-heading">Formaggio</div>
+                        <div class="menu-item-sub">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-price">$17.00</div>
+                        <div class="menu-item-heading">Chicken</div>
+                        <div class="menu-item-sub">Fresh tomatoes, mozzarella, chicken, onions</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-price">$15.50</div>
+                        <div class="menu-item-heading">Pineapple'o'clock</div>
+                        <div class="menu-item-sub">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-price">$20.00</div>
+                        <div class="menu-item-heading">Meat Town</div>
+                        <div class="menu-item-sub">fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-price">$21.50</div>
+                        <div class="menu-item-heading">Parma</div>
+                        <div class="menu-item-sub">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="container-2">
+            <div id="about-container">
+                <div class="about-heading">about</div>
+                <div class="about-describe">
+                    <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>The Chef? Mr. Italiano himself</p>
+                    <p>We are proud of our interiors.</p>
+                    <img src="./assets/img/chef.jpg" alt="">
+                </div>
+                <img class="about-img" src="./assets/img/onepage_restaurant.jpg" alt="">
+                <div class="about-open">
+                    <div class="open-heading">Opening Hours</div>
+                    <div class="open-time">
+                        <ul class="open-time-col">
+                            <li>
+                                Mon & Tue CLOSED
+                            </li>
+                            <li>
+                                Wednesday 10.00 - 24.00
+                            </li>
+                            <li>
+                                Thursday 10:00 - 24:00
+                            </li>
+                        </ul>
+                        <ul class="open-time-col">
+                            <li>
+                                Friday 10:00 - 12:00
+                            </li>
+                            <li>
+                                Saturday 10:00 - 23:00
+                            </li>
+                            <li>
+                                Sunday closed
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/img/map.jpg" alt="" class="map-img clear">
+
+        <div id="container-3">
+            <div id="contact">
+                <div class="contact-heading">contact</div>
+                <div class="contact-describe">
+                    <p>Find us at some address at some place or call us at 05050515-122330</p>
+                    <p>
+                        <span>FIY!</span> 
+                        We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste
+                    </p>
+                </div>
+                <div class="contact-input">
+                    <div class="contact-input-heading">
+                        Reserve a table, ask for today's special or just send us a message:
+                    </div>
+                    <ul class="contact-input-form ">
+                        <li><input required type="text" placeholder="Name" ></li>
+                        <li><input required type="number" placeholder="How many people" ></li>
+                        <li><input required type="datetime-local" placeholder="" ></li>
+                        <li><input required type="text" placeholder="Message \ Special requirements" ></li>
+                    </ul>
+                    <button class="contact-btn">Send message</button>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" >
+            Powered by
+            <a href="https://www.facebook.com/profile.php?id=100046862777198">TrungLe</a>
+        </footer>
+        
+    </div>
+</body>
+</html>
